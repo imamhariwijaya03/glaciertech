@@ -3,11 +3,15 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #333;
+    color: #0689a0;
 }
-h1, h2, h3, h4, h5, h6 {
+h1{
     font-family: 'Titillium Web', sans-serif;
-    color: #2E3A59; /* Warna dingin yang cocok dengan tema */
+    color: #076d96; /* Warna dingin yang cocok dengan tema */
+}
+ h2, h3, h4, h5, h6 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #1e79c4; /* Warna dingin yang cocok dengan tema */
 }
 
 p {
