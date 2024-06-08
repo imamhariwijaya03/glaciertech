@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    background-image: url('glacierai.png'); /* Replace 'glacierai.png' with the path or URL of the image you want to use */
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    padding-left: 160px;
+    text-align: left;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+nav a:hover {
+    transform: scale(1.1);
+    color: rgb(10, 171, 235);
+}
+
+.container {
+    padding: 2rem;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.product img {
+    margin-right: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.product img:hover {
+    transform: scale(2); /* Make the image significantly larger */
+    box-shadow: 0 0 20px #00f; /* Glowing blue border */
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-info h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 0.5rem;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
